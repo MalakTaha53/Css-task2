@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display&family=Playpen+Sans&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* navbar ========================================*/
+.navbar{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 200px;
+    padding-top: 15px;
+}
+.list-of-links ul{
+    list-style-type: none;
+    display: flex;
+}
+.list-of-links ul li{
+    padding-top: 18px;
+}
+.list-of-links ul li a{
+    text-decoration-line: none;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+/*header ===========================================*/
+.header{
+    background-color: teal;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header p{
+    font-style: italic;
+    font-size: 50px;
+}
+.header h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 100px;
+}
+/* servises ========================================*/
+.services{
+    background-color: beige;
+    text-align: center;
+}
+.services .container{
+    display: flex;
+    flex-direction: column;
+}
+.services .container .all-services{
+    display: flex;
+    flex-direction: row;
+}
+.service img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.services h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.services p{
+    color: rgb(107, 95, 95);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+.paraghrap-italic{
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.service h3{
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* portfolio===========================*/
+.portfolio{
+    text-align: center;
+}
+.portfolio .container{
+    display: flex;
+    flex-direction: column;  
+}
+.all-portfolio-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.portfolio p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(107, 95, 95);
+    font-style: italic;
+    margin-top: 15px;
+    padding-bottom: 40px;
+}
+.portfolio-item h3{
+    margin-top: 15px;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.portfolio-item{
+    width: 33.33%;
+    padding: 10px;
+}
+.portfolio img{
+    width: 100%;
+    display: block;
+}
+/* team==========================*/
+.team{
+    background-color: beige;
+    text-align: center;
+}
+.team .container{
+    display: flex;
+    flex-direction: column;
+}
+.team .container .all-teams{
+    display: flex;
+    flex-direction: row;
+}
+.team h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.team p{
+    margin-bottom: 20px;
+    color: rgb(107, 95, 95);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+.team-item h3{
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.team-item{
+    padding-right: 30px;
+}
+.team img{
+    width: 100%;
+}
+.last-paraghrap p{
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.team-item ul{
+    list-style-type: none;
+    display: flex;
+}
+.team-item ul li{
+    padding-right: 30px;
+}
+/* Websites=====================*/
+.Websites .container ul{
+    list-style-type: none;
+    display: flex;
+}
+.Website ul li a img{
+    width: 100%;
+    padding: 40px;
+}
+.Website .facebook{
+    padding-top: 10px;
+}
+.Website .microsoft{
+   padding-top: 10px;
+}
+/* footer ======================*/
+.footer{
+    background-color: lightgray;
+    text-align: center;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-around;
+}
+.copyright ,.links-icons ,.privacy-terms{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer ul{
+    list-style-type: none;
+    display: flex;
+}
+.privacy-terms ul li{
+    margin-right: 15px;
+}
+.privacy-terms ul li a{
+    text-decoration-line: none;
+    color: black;
+}
+.links-icons ul li{
+    margin-right: 15px;
+}
+.links-icons ul li a img{
+    width: 100px;
+}
